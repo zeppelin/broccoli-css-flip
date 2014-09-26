@@ -1,0 +1,6 @@
+.teamocil {
+  float: right;
+  margin: 0 2px 0 1px;
+  border-right: 1px solid green;
+  border-left: 2px solid red;
+}
