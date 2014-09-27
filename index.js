@@ -18,8 +18,8 @@ CSSFlipFilter.prototype.constructor = CSSFlipFilter;
 CSSFlipFilter.prototype.extensions = ['css'];
 CSSFlipFilter.prototype.targetExtension = 'css';
 
-CSSFlipFilter.prototype.processString = function (str, relativePath) {
-  var options = objectAssign({}, this.options, {filename: relativePath});
+CSSFlipFilter.prototype.processString = function(str, relativePath) {
+  var options = objectAssign({}, this.options, { filename: relativePath });
   var result = flip(str, options);
 
   return result;

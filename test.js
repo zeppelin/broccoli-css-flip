@@ -5,7 +5,7 @@ var path = require('path');
 var broccoli = require('broccoli');
 var flip = require('./');
 
-it('should flip the css', function () {
+it('should flip the css', function() {
   var builder = new broccoli.Builder(flip('fixture'));
 
   return builder.build().then(function(dir) {
